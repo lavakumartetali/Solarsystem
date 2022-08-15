@@ -16,7 +16,15 @@ text-transform: uppercase;
   float: left;
   width: 50%;
 }
-
+.column1{
+	background-color: black;
+	height: 580px; 
+	overflow:scroll;
+	overflow-x: hidden ;
+	color: white;
+	border-color: white;
+	border-style: solid;
+}
 
 @media only screen and (max-width: 620px) {
   .column, .column1 {
